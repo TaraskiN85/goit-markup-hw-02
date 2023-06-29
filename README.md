@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+This repo is created to acomplish homework #2. CSS basics

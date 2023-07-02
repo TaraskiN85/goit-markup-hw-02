@@ -6,6 +6,7 @@
   --slate: #434455;
   --cornflower: #E7E9FC;
   --cloud: #F4F4FD;
+  --ocean: #404BBF;
 }
 
 /* general styles */
@@ -61,6 +62,10 @@
   letter-spacing: 0.02em;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 /* header */
 .header-link {
   color: var(--navyblue);
@@ -80,6 +85,9 @@
   letter-spacing: 0.02em;
 }
 
+.header-link:hover {
+  color: var(--ocean);
+}
 /* hero section */
 .hero {
   width: 1440px;
@@ -120,18 +128,6 @@
   display: none;
 }
 
-/* services section */
-.services-list-image {
-  width: 360px;
-  height: 300px;
-}
-
-/* team section */
-.team-list-image {
-  width: 264px;
-  height: 260px;
-}
-
 /* footer */
 .footer {
   width: 1440px;
@@ -142,4 +138,29 @@
 .footer-logo span, 
 .footer-text {
   color: var(--cloud);
+}
+
+/* portfolio */
+.portfolio-filter-btn {
+  border-radius: 4px;
+  background: var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--iris);
+  text-align: center;
+  font-size: 16px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.btn-primary {
+  background: var(--iris);
+  color: var(--white);
+}
+
+.btn:hover {
+  background: var(--ocean);
+  color: var(--white);
 }

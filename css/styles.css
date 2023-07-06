@@ -84,7 +84,8 @@
   color: var(--iris);
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background: var(--ocean);
   color: var(--white);
 }
@@ -141,7 +142,7 @@
   background-color: var(--cloud);
 }
 
-.team-list {
+.team-list-item {
   background-color: var(--white);
 }
 

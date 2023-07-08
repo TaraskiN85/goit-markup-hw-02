@@ -10,7 +10,7 @@
   color: var(--slate);
 }
 
-body {
+.body {
   background-color: var(--white);
 }
 

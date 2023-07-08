@@ -8,7 +8,7 @@
   --cloud: #F4F4FD;
   --ocean: #404BBF;
   color: var(--slate);
-  background-color: var(--white);
+  background-color: #FFFFFF;
 }
 
 /* general styles */
@@ -74,10 +74,10 @@
   letter-spacing: 0.04em;
 }
 
-/* .btn-primary {
+.btn-primary {
   background: var(--iris);
   color: var(--white);
-} */
+}
 
 .btn-light {
   background: var(--cloud);
@@ -124,6 +124,7 @@
 
 .hero-title {
   color: var(--white);
+  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
